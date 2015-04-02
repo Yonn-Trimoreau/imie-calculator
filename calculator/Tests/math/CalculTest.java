@@ -12,7 +12,7 @@ public class CalculTest {
 		
 		double result = calc.addition(1.5d,3.2d);
 		
-		assertEquals(4.7, result, 0.001);
+		assertEquals(4.7, result, 0.1);
 	}
 	
 	@Test
@@ -21,7 +21,16 @@ public class CalculTest {
 		
 		double result = calc.substraction(3.2d, 1.2d);
 		
-		assertEquals(2.0,result,0.001);
+		assertEquals(2.0,result,0.1);
+	}
+	
+	@Test
+	public void testDivision(){
+		Calcul calc = new Calcul();
+		
+		double result = calc.division(10, 4);
+		
+		assertEquals(2.5, result, 0.1);
 	}
 
 }

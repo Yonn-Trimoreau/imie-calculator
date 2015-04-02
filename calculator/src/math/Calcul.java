@@ -27,4 +27,14 @@ public class Calcul{
 		return a-b;
 	}
 	
+	/**
+	 * Division of two numbers
+	 * @param a dividend number
+	 * @param b divisor number
+	 * @return result of division
+	 */
+	public double division(double a, double b){
+		return a/b;
+	}
+	
 }
