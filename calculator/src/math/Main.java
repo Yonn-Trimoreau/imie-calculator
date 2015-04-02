@@ -18,7 +18,7 @@ public class Main {
 		
 		Boolean correctEntry = false;
 		do{
-			System.out.print("Please enter an operator (+, -, /, *, sqrt) :");
+			System.out.print("Please enter an operator (+, -, /, *, ^, sqrt) :");
 			String operator = sc.nextLine();
 			
 			correctEntry = true;
@@ -45,6 +45,12 @@ public class Main {
 					double m1 = askNumber("first number", operator);
 					double m2 = askNumber("second number", operator);
 					result = calc.multiplication(m1, m2);
+					break;
+					
+				case "^":
+					double number = askNumber("number", operator);
+					double exponent = askNumber("exponent", operator);
+					result = calc.power(number, exponent);
 					break;
 					
 				case "sqrt":

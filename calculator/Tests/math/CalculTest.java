@@ -49,4 +49,11 @@ public class CalculTest {
 		
 		assertEquals(4, result, 1);
 	}
+	
+	@Test
+	public void testPower(){
+		double result = calc.power(2, 2);
+		
+		assertEquals(4, result, 1);
+	}
 }

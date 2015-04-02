@@ -55,4 +55,14 @@ public class Calcul{
 	public double squareRoot(double a){
 		return Math.sqrt(a);
 	}
+	
+	/**
+	 * Power of a number by an exponent
+	 * @param a number
+	 * @param b exponent
+	 * @return
+	 */
+	public double power(double a, double b){
+		return Math.pow(a, b);
+	}
 }
