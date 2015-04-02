@@ -32,5 +32,14 @@ public class CalculTest {
 		
 		assertEquals(2.5, result, 0.1);
 	}
+	
+	@Test
+	public void testMultiplication(){
+		Calcul calc = new Calcul();
+		
+		double result = calc.multiplication(7, 8);
+		
+		assertEquals(56, result, 1);
+	}
 
 }

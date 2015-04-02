@@ -37,4 +37,14 @@ public class Calcul{
 		return a/b;
 	}
 	
+	/**
+	 * Multiplication of two numbers
+	 * @param a first number
+	 * @param b second number
+	 * @return result of multiplication
+	 */
+	public double multiplication(double a, double b){
+		return a*b;
+	}
+	
 }
