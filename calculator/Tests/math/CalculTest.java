@@ -42,5 +42,11 @@ public class CalculTest {
 		
 		assertEquals(56, result, 1);
 	}
-
+	
+	@Test
+	public void testSquareRoot(){
+		double result = calc.squareRoot(16);
+		
+		assertEquals(4, result, 1);
+	}
 }

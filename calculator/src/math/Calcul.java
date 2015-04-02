@@ -47,4 +47,12 @@ public class Calcul{
 		return a*b;
 	}
 	
+	/**
+	 * Square root of a number
+	 * @param a number
+	 * @return
+	 */
+	public double squareRoot(double a){
+		return Math.sqrt(a);
+	}
 }
